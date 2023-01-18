@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h2> Gentlemen and ladies present</h2>
+@foreach(var item in Model)
+{
+
+    <hr />
+    <h4>Attendees</h4>
+    <ul>
+        <li>@item.name</li>
+        <li>@item.email</li>
+        <li>@item.phone</li>
+        <li>@item.willAttend</li>
+
+    </ul>
+    
+}
+
+
+
+
+
+
+
+    
